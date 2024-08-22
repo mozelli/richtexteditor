@@ -1,0 +1,46 @@
+.tiptap {
+    padding: .5rem .75rem;
+    border: 1px solid hsl(240, 5.9%, 90%);
+    border-radius: 5px;
+    background-color: rgb(232, 240, 254);
+    min-height: 250px;
+}
+
+.tiptap > h1, h2, h3 {
+    font-weight: 500;
+}
+
+.tiptap > h1 {
+    font-size: 1.8rem;
+}
+
+.tiptap > h2 {
+    font-size: 1.5rem;
+}
+
+.tiptap > h3 {
+    font-size: 1.25rem;
+}
+
+.tiptap > ul > li {
+    margin-left: 1rem;
+    list-style: circle;
+}
+
+.tiptap > blockquote {
+    border-left: 5px solid #5555;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: .5rem;
+    margin-left: 1rem;
+}
+
+.tiptap a {
+    text-decoration: underline;
+    font-weight: 500;
+    color: cornflowerblue;
+}
+
+.tiptap a:hover {
+    cursor: pointer;
+}

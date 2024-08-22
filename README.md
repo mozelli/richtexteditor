@@ -7,7 +7,9 @@ This is a [Next.js](https://nextjs.org/) project.
 - TipTap version: 2.6.5
 - Tailwindcss version: 3.4.1
 
-You must to copy all the content in the `editor` folder to your project
+You must copy the entire contents of the `editor` folder to your project, in addition to installing all dependencies in package.json (make sure to install the versions of the dependencies mentioned above to avoid compatibility errors).
+
+### Editor folder:
 
 ```
 /editor
@@ -17,7 +19,7 @@ You must to copy all the content in the `editor` folder to your project
         tiptap.tsx
 ```
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
@@ -33,6 +35,21 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+Import the **Editor** component to your project:
+
+```
+import Editor from "./editor/page";
+
+const YourPage = () => {
+  return (
+    <main>
+      <Editor />
+    </main>
+  );
+};
+
+export default YourPage;
+
+```

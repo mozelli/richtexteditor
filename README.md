@@ -53,3 +53,7 @@ const YourPage = () => {
 export default YourPage;
 
 ```
+
+That's it. Enjoy!
+
+João Mozelli Neto.
